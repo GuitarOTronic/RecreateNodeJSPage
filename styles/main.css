@@ -147,7 +147,20 @@ footer{
 }
 .footText{
   color: #fff;
+  font-size: .8rem;
 }
 .mkcol{
-  display: block;
+ flex-direction: column;
+}
+.linux{
+  padding-top: 1rem;
+  max-width: 100%;
+}
+.pad{
+  padding-left: 3rem;
+}
+
+.goRight{
+  
+  justify-content: flex-end;
 }
