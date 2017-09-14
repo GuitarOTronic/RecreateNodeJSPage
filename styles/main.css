@@ -60,6 +60,7 @@ header {
 }
 
 .center{
+  display: flex;
   justify-content: center;
 }
 .align{
@@ -92,4 +93,22 @@ li{
   align-items: center;
   justify-content: space-around;
   background-position: center;
+  padding: 1rem;
+}
+.intro{
+  padding: 0 30px;
+  margin: 0 auto;
+  text-align: center;
+  font: 400 20px/1.5 Helvetica,Arial,sans-serif;
+  max-width: 800px;
+}
+.security{
+  color: #333;
+  font-size: 130%;
+  background-color: #eaf5e9;
+  padding: 5px 15px;
+  border-radius: 2px;
+  margin-top: 1em;
+  max-width: 800px;
+  text-align: center;
 }
